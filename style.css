@@ -488,13 +488,14 @@ nav a:hover::after {
 
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 55px;
     }
 /* skkil */
     .skills-grid img {
         width: 120px;
         height: 120px;
         margin-left: 150px;
+        
     }
 
     .projects {
