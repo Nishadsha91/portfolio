@@ -14,7 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-        /* Header Styles */
+    
 header{
     position: fixed;
     top: 0;
@@ -67,7 +67,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-        /* Mobile Menu Toggle */
+        
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -83,7 +83,7 @@ nav a:hover::after {
     transition: 0.3s;
 }
 
-        /* Main Page Styles */
+        
 .main-page {
     min-height: 100vh;
     padding-top: 120px;
@@ -142,7 +142,7 @@ nav a:hover::after {
     transform: scale(1.2);
 }
 
-        /* About Section */
+        
 .about {
     min-height: 100vh;
     padding: 120px 100px;
@@ -201,7 +201,7 @@ nav a:hover::after {
     background-color: #b89b6d;
 }
 
-        /* Skills Section */
+        
 .skills {
     min-height: 100vh;
     padding: 120px 100px;
@@ -220,6 +220,7 @@ nav a:hover::after {
     gap: 50px;
     max-width: 800px;
     margin: 0 auto;
+    
 }
 
 .skills-grid img {
@@ -233,7 +234,7 @@ nav a:hover::after {
     transform: scale(1.2);
 }
 
-        /* Projects Section */
+    
 .projects-section {
     min-height: 100vh;
     padding: 120px 100px;
@@ -255,7 +256,7 @@ nav a:hover::after {
 }
 
 .project-card {
-    border: 4px solid #b89b6d;
+    border: 4px solid #f7c574;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.4s ease-in-out;
@@ -276,11 +277,12 @@ nav a:hover::after {
     display: block;
     font-size: 20px;
     font-weight: 700;
+    color: #5c4a2e;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(249, 243, 243, 0);
 }
 
-        /* Contact Section */
+        
 .contact {
     min-height: 100vh;
     padding: 120px 100px;
@@ -332,7 +334,7 @@ nav a:hover::after {
     background-color: #2a6a9e;
 }
 
-        /* Animations */
+        
 @keyframes slideFromLeft {
     from {
           transform: translateX(-100px);
@@ -355,7 +357,7 @@ nav a:hover::after {
         }
 }
 
-        /* Tablet Styles */
+        
 @media (max-width: 1024px) {
 
     .logo {
@@ -398,7 +400,7 @@ nav a:hover::after {
         }
 }
 
-        /* Mobile Styles */
+        
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
@@ -492,6 +494,7 @@ nav a:hover::after {
     .skills-grid img {
         width: 120px;
         height: 120px;
+        margin-left: 100px;
     }
 
     .projects {
