@@ -490,11 +490,11 @@ nav a:hover::after {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
-
+/* skkil */
     .skills-grid img {
         width: 120px;
         height: 120px;
-        margin-left: 110px;
+        margin-left: 150px;
     }
 
     .projects {
