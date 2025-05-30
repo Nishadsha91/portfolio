@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishad.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/mns.jpeg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({publicKey: "QmG36ePMouuveIAKO",});
+    })();
+    </script>
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">Nishad.</div>
+        <nav id="nav">
+            <a href="#main-link">Home</a>
+            <a href="#about-link">About</a>
+            <a href="#skill-link">Skills</a>
+            <a href="#project-link">Projects</a>
+            <a href="#contact-link">Contact</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="main-link" class="main-page">
+        <div class="main-img">
+            <img src="image/Untitled Project.jpg" alt="Mohammed Nishad">
+        </div>
+        <div class="main-txt">
+            <h1>I'm,<br>MOHAMMED NISHAD</h1>
+            <p>Python Developer</p>
+
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/nis_had.__?igsh=MXJ6c280dHFwczIxMA==/">
+                    <img src="image/instagram (1).png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/share/198Ps27hWt/">
+                    <img src="image/social-media.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/mohammed-nishad-79066a340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="image/business.png" alt="LinkedIn">
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="about-link" class="about">
+        <h2>ABOUT ME</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="image/kmj.jpeg" alt="Mohammed Nishad">
+            </div>
+            <div class="about-text">
+                Myself Mohammed Nishad, I belong to Malappuram. I have recently graduated with a Bachelor's Degree in Computer Application from Calicut University. Throughout my studies I have developed skills in PYTHON, HTML, CSS, JAVASCRIPT etc. I embarked on a thrilling journey to gain more knowledge about software field. I'm passionate about technology and eager to apply academic knowledge to real-world challenges.
+                <br>
+                <a href="#contact-link">
+                    <button class="btn1">Contact Me</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill-link" class="skills">
+        <h2>SKILLS</h2>
+        <div class="skills-grid">
+            <img src="image/html-5.png" alt="HTML5">
+            <img src="image/css-3.png" alt="CSS3">
+            <img src="image/js.png" alt="JavaScript">
+            <img src="image/python.png" alt="Python">
+        </div>
+    </section>
+
+    <section id="project-link" class="projects-section">
+        <h2>MY PROJECTS</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="image/w31.png" alt="W3School Nav Bar Project">
+                <span>W3.School Nav Bar</span>
+            </div>
+            <div class="project-card">
+                <img src="image/bank.png" alt="Bank Balance Check Project">
+                <span>Bank Balance Check by J.S</span>
+            </div>
+            <div class="project-card">
+                <img src="image/ease.png" alt="EaseMyTrip Clone Project">
+                <span>Clone of EaseMyTrip</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-link" class="contact">
+        <h2>CONTACT</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="button" class="btn2" onclick="sendMail()">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
